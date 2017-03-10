@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Cheap pizza">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="bgPizza">
+      <div class="logo">
+        <p>Little Itally</p>
+      </div>
+      <div class="action">
+        <p><button id="menu" class="menu">Menu</button></p>
+        <p><button id="contact" class="contact">Contact</button></p>
+      </div>
+      <div class="content">
+        <p>Monday - Friday 10-22 | Saturday 14-03</p>
+        <p>Beogradska 55, Beograd</p>
+        <p><span>Coded with love</span></p>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h1>Menu</h1>
+            </div>
+            <div class="modal-body">
+              <h5 class="mod-text">Pizza pepperoni beef <b>$15.99</b><img src="img/pizza.png" class="img-mod"></h5>
+              <h5 class="mod-text">Pizza pepperoni <b>$12.99</b><img src="img/pizza1.png" class="img-mod"></h5>
+              <h5 class="mod-text">Pizza supreme <b>$14.99</b><img src="img/pizza2.png" class="img-mod"></h5>
+              <h5 class="mod-text">Pizza cheese <b>$11.99</b><img src="img/pizza3.png" class="img-mod"></h5>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal-two" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+              <span class="close-two">&times;</span>
+              <h1>Contact</h1>
+            </div>
+            <div class="modal-body-two">
+              <p class="about-small-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat sit amet odio eget blandit. Nulla tincidunt turpis urna, sit amet condimentum mauris eleifend ac. Nam sit amet quam elit.</p>
+              <p class="about-small-l">IceCreamas - 52 St, 12143 New York, NY</p>
+              <p class="about-small-l">Donec blandit eu augue quis lobortis.Aliquam a pellentesque ipsum, sit amet imperdiet 555-666 raesent a hendrerit ex. Quisque dictum auctor posuere.</p>
+              <form action="page.php" target="_blank">
+                <input class="from-inp" type="text" name="Name" placeholder="Name" required="">
+                <input class="from-inp" type="text" name="Message" placeholder="Message" required="">
+                <button class="btn" type="submit">Send message</button>
+              </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
